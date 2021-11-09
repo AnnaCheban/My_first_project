@@ -4,7 +4,8 @@ using namespace std;
 #include <math.h>
 
 double func1(double, double, double);
-//double func2(double);
+double func2(double, double, double);
+
 
 int main()
 {
@@ -30,9 +31,9 @@ double func1(double x, double a, double y){
 	}
 }
 
-//double func2(double);
 
-double func1(double x, double a, double y)
+
+double func2(double x, double a, double y)
 {
 	return 0.0;
 }
