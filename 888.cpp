@@ -18,9 +18,8 @@ int main()
 	cin >> x;
 
 	int A = func1(t, y);
-	double B = func2(x);
-		cout << " A <= B " <<boolalpha<< func3(A,B)  <<endl;
-	return 0;
+	double B = func2(x);      //message
+		
 }
 int func1(int t, int y) {
 	if ((1 - pow(abs(2 + y), 1. / 3)) && (1 - pow(8 * pow(y, 3), 1. / 4)) / (1 - pow(abs(2 + y), 1. / 3)) != 0)
@@ -42,15 +41,7 @@ double func2(double x) {
 
 }
 
-bool func3(int A, double B) {
 
-	if ((A < B) || (A = B))
-		return 0;
-		
-	else
-		return 1;
-
-}
 
 
 
