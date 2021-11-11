@@ -17,6 +17,8 @@ int main()
 	scanf_s("%lf", &y);
 	
 	cout << func1(x, a, y);
+	cin >> a;
+
 
 }
 
