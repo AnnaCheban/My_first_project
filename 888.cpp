@@ -16,7 +16,7 @@ int main()
 	cin >> t >> y;
 	cout << "Input x for func2: " << endl;
 	cin >> x;
-
+	cout << "Hello student!!!";
 	int A = func1(t, y);
 	double B = func2(x);      //message
 		
@@ -30,16 +30,7 @@ int func1(int t, int y) {
 		return 1;
 }
 
-double func2(double x) {
-	if ((pow(1 + cos(5 * x), 2)) != 0)
-	{
-		return (4 * pow(sin(x), 3)) / (pow(1 + cos(5 * x), 2) + cos(80));
 
-	}
-	else
-		return 1;
-
-}
 
 
 
