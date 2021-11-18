@@ -11,7 +11,7 @@ int main()
 {
 	double x, y, a;
 	float e = exp(1.0);
-	printf("input X: ");
+	printf("input X: ");    //comment
 	scanf_s("%lf", &x);
 	printf("input Y: ");
 	scanf_s("%lf", &y);
